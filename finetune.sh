@@ -3,10 +3,10 @@
 CUDA_VISIBLE_DEVICES=0,1,2 python cli_gap.py \
          --do_train \
          --output_dir out/webnlg_type_e_r_2 \
-         --train_file ../data/webnlg/train \
-         --predict_file ../data/webnlg/val \
-         --model_path ../pretrained_LM/bart-base \
-         --tokenizer_path ../pretrained_LM/bart-base \
+         --train_file data/webnlg/train \
+         --predict_file data/webnlg/val \
+         --model_path pretrained_LM/bart-base \
+         --tokenizer_path pretrained_LM/bart-base \
          --dataset webnlg \
          --entity_entity \
          --entity_relation \
@@ -26,10 +26,10 @@ CUDA_VISIBLE_DEVICES=0,1,2 python cli_gap.py \
 #CUDA_VISIBLE_DEVICES=0,1,2,3 python cli_gap.py \
 #        --do_train \
 #        --output_dir out/event_type_e_r \
-#        --train_file ../data/eventNarrative/processed/train/train \
-#        --predict_file ../data/eventNarrative/processed/val/val \
-#        --model_path ../pretrained_LM/bart-base \
-#        --tokenizer_path ../pretrained_LM/bart-base \
+#        --train_file data/eventNarrative/processed/train/train \
+#        --predict_file data/eventNarrative/processed/val/val \
+#        --model_path pretrained_LM/bart-base \
+#        --tokenizer_path pretrained_LM/bart-base \
 #        --dataset eventNarrative \
 #        --entity_entity \
 #        --entity_relation \

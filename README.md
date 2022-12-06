@@ -19,8 +19,9 @@ Accepted as a Main Conference Long paper at COLING 2022. Paper can be found [her
 `pip install torch-scatter -f https://data.pyg.org/whl/1.9.0+cu111.html`
 
 ## Directories
-- `data/``: store data in here
-- `pretrained_LM/``: stores pretrained LM
+- `data/`: create directory to store data in here
+- `pretrained_LM/`: create directory to store pre-trained language model
+- `out/`: stores finetuned model and log files
 
 ## Currently Supported Data
 - [eventNarrative](https://www.kaggle.com/acolas1/eventnarration)
@@ -31,8 +32,8 @@ Accepted as a Main Conference Long paper at COLING 2022. Paper can be found [her
 * ----length_penalty 5.0
 * --dataset eventNarrative
 
-## Pretrained LM
-Please download the pretrained_LM bart-base from Huggingface found [here](https://huggingface.co/facebook/bart-base) unzip and move it to the `pretrained_LM/` folder
+## Pre-trained Language Model
+Please download the pre-trained_LM bart-base from Huggingface found [here](https://huggingface.co/facebook/bart-base) unzip and move it to the `pretrained_LM/` folder
 
 ## Usage
 **Fine-tune**
@@ -94,3 +95,4 @@ Please cite our paper if using this repository:
 ## References
 We refer to the following repositories for parts of our code:
 [Transformers](https://github.com/huggingface/transformers), [bart-closed-book-qa](https://github.com/shmsw25/bart-closed-book-qa), and [JointGT](https://github.com/thu-coai/JointGT). 
+

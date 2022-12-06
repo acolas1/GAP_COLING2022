@@ -3,9 +3,9 @@
 CUDA_VISIBLE_DEVICES=0 python cli_gap.py \
         --do_predict \
         --output_dir out/event_type_e_r \
-        --train_file ../data/eventNarrative/processed/train/train \
-        --predict_file ../data/eventNarrative/processed/test/test \
-        --tokenizer_path ../pretrained_LM/bart-base \
+        --train_file data/eventNarrative/processed/train/train \
+        --predict_file data/eventNarrative/processed/test/test \
+        --tokenizer_path pretrained_LM/bart-base \
         --dataset eventNarrative \
 	--entity_entity \
         --entity_relation \
