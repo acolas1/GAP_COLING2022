@@ -1,5 +1,6 @@
 # GAP: A Graph-aware Language Model Framework for Knowledge Graph-to-Text Generation
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/gap-a-graph-aware-language-model-framework/kg-to-text-generation-on-webnlg-2-0)](https://paperswithcode.com/sota/kg-to-text-generation-on-webnlg-2-0?p=gap-a-graph-aware-language-model-framework)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/gap-a-graph-aware-language-model-framework/kg-to-text-generation-on-eventnarrative)](https://paperswithcode.com/sota/kg-to-text-generation-on-eventnarrative?p=gap-a-graph-aware-language-model-framework)
 
 ## Paper
